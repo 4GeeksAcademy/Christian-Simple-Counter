@@ -1,12 +1,32 @@
+body{
+    background-color: rgb(7, 7, 34);
+}
+.semaforo{
+    text-align: center;
+}
+.tubito-de-arriba {
+    width: 1.5rem;
+    height: 15rem;
+    margin: auto;
+    background-color: darkgoldenrod;
+    display: flex;
+}
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.contenedor-de-luces {
+    background-color: darkgoldenrod;
+    display: inline-block;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 0.5rem
 
-*/
+}
+.luz {
+    width: 7rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    &.rojo {background-color: red;}
+    &.amarillo{background-color: yellow;}
+    &.verde{background-color: green;}
+}
